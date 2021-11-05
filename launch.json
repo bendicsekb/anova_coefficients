@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ANOVA",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/Studio/Desktop/Vizsga/anova.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-f", "T B", 
+                "-r", "C", 
+                "-c", "TB TC BC TBC", 
+                "-n", "P(BC)", 
+                "-e", "TP(BC)"]
+        }
+    ]
+}
